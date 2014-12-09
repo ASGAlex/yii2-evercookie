@@ -1,0 +1,25 @@
+{
+    "name": "asgalex/yii2-evercookie",
+    "description": "Simple evercookie component and widget for Yii2",
+    "keywords": ["yii2", "evercookie", "cookie"],
+    "type": "yii2-extension",
+    "support": {
+        "issues": "https://github.com/ASGAlex/yii2-evercookie/issues",
+        "source": "https://github.com/ASGAlex/yii2-evercookie/"
+    },
+    "authors": [
+        {
+            "name": "Alexey Volkov",
+            "email": "asgalex@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "lagman/evercookie": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "asgalex\\evercookie\\": ""
+        }
+    }
+}
